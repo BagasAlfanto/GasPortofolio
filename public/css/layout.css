@@ -1,0 +1,17 @@
+.vh-100{
+    background-color: #1A2130;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+@media(max-width: 991px){
+    .sidebar {
+        background-color: rgba(34, 34, 34, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
